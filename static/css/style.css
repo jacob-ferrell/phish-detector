@@ -1,0 +1,36 @@
+html {
+    display: grid;
+    min-height: 100%;
+
+}
+
+.graph {
+    display: none;
+}
+
+#heatmap img {
+    max-width: 50rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.result-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

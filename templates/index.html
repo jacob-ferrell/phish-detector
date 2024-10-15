@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <script src="../static/js/script.js" defer></script>
+    <title>Phish Detector</title>
+</head>
+<body>
+   <div>
+    <div class="input-container">
+        <label for="url">Enter a URL for phish detection:</label>
+        <input type="text" id="url-input" placeholder="Enter a URL for phish detection"/>
+        <button id="submit">Submit</button>
+    </div>
+    <div class="result-container">
+        <div id="url-result"></div>
+        <div id="result"></div>
+    </div>
+    <div class="button-container">
+        <button class="graph-button">View Heatmap</button><button class="graph-button">View ROC Curve</button><button class="graph-button">View Confusion Matrix</button>
+    </div>
+   </div>
+   <div id="confusion-matrix" class="graph"><img src="../static/images/confusion_matrix.png" alt=""></div>
+   <div id="heatmap" class="graph"><img src="../static/images/heatmap.png" alt=""></div>
+   <div id="roc-curve" class="graph"><img src="../static/images/roc_curve.png" alt=""></div>
+</body>
+</html>
